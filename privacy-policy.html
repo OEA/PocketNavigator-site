@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--
+  Pocket Navigator privacy policy.
+  Host this page at a public URL (no login), then use that URL in:
+    - App Store Connect → App Information → Privacy Policy URL
+    - the in-app link in Settings (audit #6)
+  Before publishing:
+    1. Replace every [PLACEHOLDER].
+    2. Check the "CONFIRM WITH POINTR" comments against what PointrKit actually sends; the policy,
+       the App Store privacy answers and the SDK's behaviour must match.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Pocket Navigator – Privacy Policy</title>
+    <style>
+        :root {
+            --text: #1c1c1e;
+            --secondary: #5b5b60;
+            --background: #ffffff;
+            --surface: #f2f4f8;
+            --accent: #145bec;
+            --border: #e1e4ea;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text: #f2f2f7;
+                --secondary: #a1a1a8;
+                --background: #000000;
+                --surface: #1c1c1e;
+                --accent: #5a8cff;
+                --border: #2c2c2e;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--background);
+            -webkit-text-size-adjust: 100%;
+        }
+        main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+        header { margin-bottom: 32px; }
+        h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+        h2 { font-size: 1.25rem; margin: 36px 0 8px; }
+        p, li { color: var(--text); }
+        .meta { color: var(--secondary); margin: 0; }
+        .summary {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 16px 20px;
+        }
+        .summary ul { margin: 0; padding-left: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+        th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--border); }
+        th { color: var(--secondary); font-weight: 600; }
+        a { color: var(--accent); }
+        footer { margin-top: 48px; color: var(--secondary); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Pocket Navigator Privacy Policy</h1>
+        <p class="meta">Effective date: 20 November 2026</p>
+    </header>
+
+    <section class="summary" aria-label="Summary">
+        <ul>
+            <li>No account, no sign-in, no advertising and no tracking.</li>
+            <li>Your location is used only to show where you are inside the venue and to guide you there.</li>
+            <li>Location is used in the background only during a route you started, and stops when you arrive or end the route.</li>
+            <li>We don't sell your data or share it for advertising.</li>
+        </ul>
+    </section>
+
+    <h2>Who we are</h2>
+    <p>
+        Pocket Navigator (“the app”) is published by Omer Emre Aslan (“we”, “us”).
+        We are responsible for the personal data processed through the app. You can contact us at
+        <a href="mailto:oeaslandev@gmail.com">oeaslandev@gmail.com</a>.
+    </p>
+
+    <h2>What the app does</h2>
+    <p>
+        The app gives indoor turn-by-turn directions inside supported venues (currently Boston Logan International Airport,
+        Terminal E). It uses Bluetooth beacons installed in the venue to work out your indoor position, and can keep guiding
+        you on the Lock Screen while your phone is locked.
+    </p>
+
+    <h2>Information we use</h2>
+    <table>
+        <thead>
+            <tr><th scope="col">Information</th><th scope="col">Why</th><th scope="col">Where it is processed</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Precise location (indoor position from Bluetooth beacons and iOS Location Services)</td>
+                <td>To show where you are in the venue, calculate a route and guide you to your destination</td>
+                <!-- CONFIRM WITH POINTR: whether positions are computed only on the device or also sent to Pointr's servers,
+                     and whether they are stored. Edit this cell to match. -->
+                <td>On your device, and by our positioning provider Pointr (see below)</td>
+            </tr>
+            <tr>
+                <td>Device and technical information (such as app version, iOS version and device model)</td>
+                <!-- CONFIRM WITH POINTR: which device data / identifiers / logs the SDK sends. Remove this row if none. -->
+                <td>To deliver venue maps and places to the app, and to keep the positioning service working</td>
+                <td>Pointr</td>
+            </tr>
+            <tr>
+                <td>Your settings (Pocket mode, Live Activity, alerts, step-free routes)</td>
+                <td>To remember your choices</td>
+                <td>Only on your device</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        We don't collect your name, email address, contacts, photos or any other content from your device.
+        The places you search for and the routes you take are not tied to your identity.
+    </p>
+
+    <h2>Location and background use</h2>
+    <ul>
+        <li>The app asks for location access <strong>“While Using the App”</strong> only. It never asks for “Always”.</li>
+        <li>When you start a route and lock your phone, guidance continues in the background so the Lock Screen stays up to date.
+            iOS shows a location indicator while this happens.</li>
+        <li>Background location stops automatically when you arrive, when you tap End, or when you turn off Pocket mode in Settings.</li>
+        <li>Bluetooth is used only to detect the venue's positioning beacons.</li>
+        <li>You can change or withdraw location access at any time in iOS Settings → Privacy &amp; Security → Location Services → Pocket Navigator.
+            Without it, the app can show the venue and its places but can't guide you.</li>
+    </ul>
+
+    <h2>Notifications and Live Activities</h2>
+    <p>
+        Step alerts (before lifts and stairs) and the arrival alert are created on your device; we don't use a push
+        notification server. The Lock Screen Live Activity is also updated on your device. You can turn both off in the app's
+        Settings or in iOS Settings.
+    </p>
+
+    <h2>Service providers</h2>
+    <p>
+        Indoor positioning, venue maps and routing are provided by <strong>Pointr Ltd</strong>, which processes the
+        information described above on our behalf and only to provide this service. See
+        <a href="https://www.pointr.tech/privacy-policy">Pointr's privacy policy</a>.
+        <!-- CONFIRM: Pointr's privacy policy URL, and whether Pointr acts as a processor for this app. -->
+    </p>
+    <p>We don't use analytics, advertising or tracking services, and we don't sell or share personal data for advertising.</p>
+
+    <h2>How long we keep information</h2>
+    <!-- CONFIRM WITH POINTR: actual retention of any data sent to Pointr's servers. -->
+    <p>
+        Your settings stay on your device until you delete the app. Information processed by Pointr to provide positioning
+        is kept only as long as needed for that purpose, and no longer than [RETENTION PERIOD].
+    </p>
+
+    <h2>International transfers</h2>
+    <p>
+        Pointr's servers may be located outside your country, including in [SERVER REGIONS]. Where required, transfers are
+        protected by appropriate safeguards such as the European Commission's Standard Contractual Clauses.
+    </p>
+
+    <h2>Your rights</h2>
+    <p>
+        Depending on where you live (for example under the GDPR, UK GDPR or US state privacy laws such as the CCPA), you
+        may have the right to access, correct or delete your personal data, to object to or restrict its processing, and to
+        complain to your local data protection authority. Our legal basis for processing your location is providing the
+        service you asked for (performance of a contract) and, for location access, your choice in iOS.
+    </p>
+    <p>
+        Because the app has no accounts and doesn't link data to your identity, we may not be able to find information
+        about you. To make a request, email <a href="mailto:oeaslandev@gmail.com">oeaslandev@gmail.com</a> and we'll respond within
+        30 days. Deleting the app removes all information stored on your device.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+        The app is not directed to children under 13 (or the minimum age in your country), and we don't knowingly collect
+        personal data from them.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+        Information sent between the app and Pointr is encrypted in transit (HTTPS). Access to the service is limited to
+        the people and systems that need it to run it.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+        If we change this policy, we'll update the effective date above and, for significant changes, tell you in the app
+        or in the App Store release notes.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        Omer Emre Aslan<br>
+        <a href="mailto:oeaslandev@gmail.com">oeaslandev@gmail.com</a>
+    </p>
+
+    <footer>© 2026 Omer Emre Aslan</footer>
+</main>
+</body>
+</html>

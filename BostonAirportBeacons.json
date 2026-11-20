@@ -1,0 +1,150 @@
+{
+  "beacons" : [
+    {
+      "distanceAlongRoute" : 0,
+      "latitude" : 42.37002551,
+      "levelIndex" : 1,
+      "longitude" : -71.02079907,
+      "major" : 1,
+      "minor" : 1025,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 4.3,
+      "latitude" : 42.36997867,
+      "levelIndex" : 1,
+      "longitude" : -71.02069251,
+      "major" : 1,
+      "minor" : 1026,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 12.6,
+      "latitude" : 42.36994216,
+      "levelIndex" : 1,
+      "longitude" : -71.02061378,
+      "major" : 1,
+      "minor" : 1027,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 26.6,
+      "latitude" : 42.36987257,
+      "levelIndex" : 1,
+      "longitude" : -71.02045334,
+      "major" : 1,
+      "minor" : 1028,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 40.3,
+      "latitude" : 42.36979803,
+      "levelIndex" : 1,
+      "longitude" : -71.02029065,
+      "major" : 1,
+      "minor" : 1029,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 55.2,
+      "latitude" : 42.36974681,
+      "levelIndex" : 1,
+      "longitude" : -71.02012354,
+      "major" : 1,
+      "minor" : 1074,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 70.4,
+      "latitude" : 42.3696801,
+      "levelIndex" : 1,
+      "longitude" : -71.02001936,
+      "major" : 1,
+      "minor" : 1075,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 84,
+      "latitude" : 42.3696223,
+      "levelIndex" : 1,
+      "longitude" : -71.01986403,
+      "major" : 1,
+      "minor" : 1076,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 97.3,
+      "latitude" : 42.36956449,
+      "levelIndex" : 1,
+      "longitude" : -71.01976387,
+      "major" : 1,
+      "minor" : 1014,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 105.6,
+      "latitude" : 42.36957,
+      "levelIndex" : 3,
+      "longitude" : -71.01979737,
+      "major" : 1,
+      "minor" : 3001,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 117.9,
+      "latitude" : 42.36958172,
+      "levelIndex" : 3,
+      "longitude" : -71.01973631,
+      "major" : 1,
+      "minor" : 3002,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 127.6,
+      "latitude" : 42.36975141,
+      "levelIndex" : 3,
+      "longitude" : -71.01973405,
+      "major" : 1,
+      "minor" : 3020,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 133.3,
+      "latitude" : 42.3698118,
+      "levelIndex" : 3,
+      "longitude" : -71.01987335,
+      "major" : 1,
+      "minor" : 3021,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 152.7,
+      "latitude" : 42.36991841,
+      "levelIndex" : 3,
+      "longitude" : -71.01988917,
+      "major" : 1,
+      "minor" : 3039,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 163.3,
+      "latitude" : 42.36997273,
+      "levelIndex" : 3,
+      "longitude" : -71.01984332,
+      "major" : 1,
+      "minor" : 3040,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    },
+    {
+      "distanceAlongRoute" : 172,
+      "latitude" : 42.37005169,
+      "levelIndex" : 3,
+      "longitude" : -71.01977566,
+      "major" : 1,
+      "minor" : 3041,
+      "uuid" : "AAAAAAA0-BBB0-CCC0-DDD0-431E50385F1D"
+    }
+  ],
+  "createdAt" : "2026-11-20T13:25:29Z",
+  "name" : "Drawn route"
+}
